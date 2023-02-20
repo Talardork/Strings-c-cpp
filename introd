@@ -1,0 +1,45 @@
+ASCII code contains total of 127 characters. 127 possible values = 7 bits
+so to round off -> 8 bits (1 byte) is taken as char
+
+char is of 1 byte (8 bits)
+
+
+char temp='A';
+// it can only be written within single quotes. Add. It takes one byte of memory.
+// it can contain only one character.
+
+char temp = 'AB'; // this is wrong
+char temp = "A"; //this is also wrong
+
+// inside the memory only ASCII value is stored. For example, A has Value 65. 
+so 65 will be stored in the memory of temp variable
+
+code -->
+
+char temp = 'a';
+printf("%c", temp);
+//we have given format specifier "%c" , so it will print the char of value of the ASCII code that is stored in the variable
+
+printf("%d", temp); //it will print the ascii code (for ex -> A has ascii code 65)
+cout<<temp; //output -> a
+
+
+
+
+CHARACTER ARRAY --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
